@@ -11,13 +11,17 @@
 
 ## Sobre 
 Esse projeto tem como objetivo armazenar as resoluções feitas dos seguintes exercícios do LeetCode:
- - (Medium) - #000
- - (Hard) - [#493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/?envType=problem-list-v2&envId=divide-and-conquer)
+ - (Medium) - [#493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/?envType=problem-list-v2&envId=divide-and-conquer)
+ - (Hard) - [#973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/?envType=problem-list-v2&envId=divide-and-conquer)
  - (Hard) - #000
 
 
 ## Screenshots
+#973. K Closest Points to Origin
+
+
 #493. Reverse Pairs
+
 ![493](img/img1.png)
 
 ## Instalação 
