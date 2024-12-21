@@ -5,7 +5,7 @@
 
 2. [#493. Reverse Pairs](#493-reverse-pairs-)
 
-3. #000
+3. [#719. Find K-th Smallest Pair Distance](#719-find-k-th-smallest-pair-distance-)
 
 ## #973. K Closest Points to Origin 🔶
 
@@ -91,9 +91,40 @@ A ideia foi de usar o algoritmo visto em sala da contagem de inversões, com uma
 
 Fora isso, o algoritmo é o mesmo visto em sala, de ir dividindo o vetor em dois, de forma recursiva, e ir contando o número de inversões ao merjar dois vetores, por meio da função merge_count().
 
-## #000 🔴
+## #719. Find K-th Smallest Pair Distance 🔴
 
-...
+The distance of a pair of integers a and b is defined as the absolute difference between a and b.
+
+Given an integer array nums and an integer k, return the kth smallest distance among all the pairs nums[i] and nums[j] where 0 <= i < j < nums.length.
+
+Example 1:
+
+Input: nums = [1,3,1], k = 1
+
+Output: 0
+
+Explanation: Here are all the pairs:
+
+(1,3) -> 2
+
+(1,1) -> 0
+
+(3,1) -> 2
+
+Then the 1st smallest distance pair is (1,1), and its distance is 0.
+
+Example 2:
+
+Input: nums = [1,1,1], k = 2
+
+Output: 0
+
+Example 3:
+
+Input: nums = [1,6,1], k = 3
+
+Output: 5
 
 ## Como resolvemos?
-...
+
+Utiizamos a ideia do Dividir e Conquistar, primeiramente ordenando o vetor dos pontos, para facilitar o cálculo das distâncias máximas e depois de forma recursiva encontramos o número de pares possíveis menor que essa distância. E assim, comparando com o k fornecido.

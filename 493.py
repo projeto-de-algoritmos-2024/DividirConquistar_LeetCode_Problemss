@@ -76,5 +76,5 @@ r1 = solucao.reversePairs(nums1)
 r2 = solucao.reversePairs(nums2)
 
 print(f"Total de pares invertidos em {nums1}: {r1}")
-print(f"Total de pares invertidos em {nums1}: {r2}")
+print(f"Total de pares invertidos em {nums2}: {r2}")
 
