@@ -32,7 +32,7 @@ We only want the closest k = 1 points from the origin, so the answer is just [[-
 
 Example 2:
 
-Input: points = points = [[3,3],[5,-1],[-2,4]], k = 2
+Input: points = [[3,3],[5,-1],[-2,4]], k = 2
 
 Output: [[3,3],[-2,4]]
 
@@ -41,7 +41,11 @@ Explanation:
 The answer [[-2,4],[3,3]] would also be accepted.
 
 ## Como resolvemos?
-...
+Esse problema poderia ser resolvido de forma bem rápida e mais simples utilizando um heap, onde a cabeça do heap, fosse o ponto com a menor distância a origem. Porém queríamos nos desafiar utilizando o algoritmo estudado em sala, de par de pontos mais próximos, a diferença era que um ponto seria fixo.
+
+Entretanto vimos que o algoritmo não seria muito efetivo, pois todos os pontos teria que ser comparado com a origem, então a lógica não funcionaria muito bem. Porém ainda gostaríamos de utilizar a ideia de Dividir e Conquistar, pois é o conteúdo atual, então fizemos uma abordagem utilizando a ideia do quicksort, mas sem a parte de ordenação, apenas utilizando o pivô.
+
+Com isso fizemos um algoritmo recursivo, deixando sempre pontos à esquerda ou a direita do pivô dependendo da distância de cada ponto à origem for menor ou maior do que a do pivô à origem. Mas como queríamos utilizar um conteúdo visto em sala, decidimos mudar a forma de escolha do pivô, colocando o algoritmo da Mediana das Medianas, o que funcionou super bem.
 
 ## #493. Reverse Pairs 🔴
 
