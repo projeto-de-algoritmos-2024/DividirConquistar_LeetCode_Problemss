@@ -39,6 +39,8 @@ Porém caso não queira testar pelo LeetCode, basta clonar o repositório e roda
 ## Outros 
 Copiamos os problemas para o repositório, caso não queria abrir o LeetCode e queira ler a descrição do problema, clique [AQUI!!!](Problems.md)
 
+## Vídeos
 
+[Explicação Trabalho (Drive)](https://drive.google.com/file/d/1Ebdhn7Krkan4Cwf5pIKm_-UnK5Y_Ry3B/view?usp=sharing)
 
-
+[Explicação Trabalho (YouTube)](https://youtu.be/dHg97jfaTw0)
